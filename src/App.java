@@ -18,5 +18,14 @@ public class App {
         {
             System.out.println("Varv1 nr: "+varv1);
         }
+
+        //d
+        int varv2 = 0;
+        do
+        {
+            System.out.println("Varv2 nr: "+varv2);
+            varv2++;
+        }
+        while(varv2<6);
     }
 }
