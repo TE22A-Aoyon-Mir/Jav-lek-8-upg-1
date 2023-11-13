@@ -12,5 +12,11 @@ public class App {
             System.out.println("Varv nr: "+varv);
             varv++;
         }
+
+        //c
+        for(int varv1=0; varv1<6; varv1++)
+        {
+            System.out.println("Varv1 nr: "+varv1);
+        }
     }
 }
