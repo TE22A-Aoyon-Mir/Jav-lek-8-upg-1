@@ -27,5 +27,13 @@ public class App {
             varv2++;
         }
         while(varv2<6);
+
+        //e
+        int varv3 = 5;
+        while(varv3>0)
+        {
+            System.out.println("Varv3 nr: "+varv3);
+            varv3--;
+        }
     }
 }
