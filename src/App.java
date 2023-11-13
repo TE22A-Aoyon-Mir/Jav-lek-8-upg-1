@@ -3,13 +3,14 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         
-        Scanner t = new Scanner(System.in);
+        Scanner tb = new Scanner(System.in);
 
-        //a
-        String str = "Yes";
-        while (str.equalsIgnoreCase("Yes"))
+        //a & b
+        int varv = 2;
+        while(varv<6)
         {
-            System.out.println("0 1 2 3 4 5");
+            System.out.println("Varv nr: "+varv);
+            varv++;
         }
     }
 }
