@@ -48,5 +48,23 @@ public class App {
                 System.out.println("Varv4 nr: "+varv4);
             }
         }
+
+        //g
+        System.out.println("\n");
+        int[] fält = new int [5];
+        System.out.println("Ange tal 0: ");
+        fält[0] = tb.nextInt();
+        System.out.println("Ange tal 1: ");
+        fält[1] = tb.nextInt();
+        System.out.println("Ange tal 2: ");
+        fält[2] = tb.nextInt();
+        System.out.println("Ange tal 3: ");
+        fält[3] = tb.nextInt();
+        System.out.println("Ange tal 4: ");
+        fält[4] = tb.nextInt();
+        for(int i=0; i<fält.length; i++)
+        {
+            System.out.println("Element på index "+i+" har värdet "+fält[i]);
+        }
     }
 }
