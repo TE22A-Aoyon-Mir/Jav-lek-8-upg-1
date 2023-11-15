@@ -49,7 +49,7 @@ public class App {
             }
         }
 
-        //g
+        //g & h
         System.out.println("\n");
         int[] fält = new int [5];
         System.out.println("Ange tal 0: ");
@@ -62,7 +62,7 @@ public class App {
         fält[3] = tb.nextInt();
         System.out.println("Ange tal 4: ");
         fält[4] = tb.nextInt();
-        for(int i=0; i<fält.length; i++)
+        for(int i=4; i<fält.length; i--)
         {
             System.out.println("Element på index "+i+" har värdet "+fält[i]);
         }
