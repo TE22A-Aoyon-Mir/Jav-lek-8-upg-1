@@ -62,9 +62,18 @@ public class App {
         fält[3] = tb.nextInt();
         System.out.println("Ange tal 4: ");
         fält[4] = tb.nextInt();
-        for(int i=4; i<fält.length; i--)
+        for(int i=4; i>-1; i--)
         {
             System.out.println("Element på index "+i+" har värdet "+fält[i]);
+        }
+
+        //i
+        System.out.println("\n");
+        System.out.println("Ange antalet *: ");
+        int stj = tb.nextInt();
+        for(int i=0; i<stj; i++)
+        {
+            System.out.println("*");
         }
     }
 }
